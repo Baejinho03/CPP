@@ -5,7 +5,7 @@ using namespace std;
 int main() {
 	int a;
 
-	cin >> a; // ╨╞╪Ж a©║ ют╥б
+	cin >> a; // б╨б╞б╪ц╤ aб©б║ ц─ц■б╥ц┌
 
 	cout << a + 2;
 
