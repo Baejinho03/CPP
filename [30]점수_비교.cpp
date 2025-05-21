@@ -5,14 +5,14 @@ using namespace std;
 int main() {
 	int a_math, a_english, b_math, b_english;
 
-	cin >> a_math >> a_english; // aÀÇ ¼öÇÐ, ¿µ¾î Á¡¼ö ÀÔ·Â
+	cin >> a_math >> a_english; // aì˜ ìˆ˜í•™, ì˜ì–´ ì ìˆ˜ ìž…ë ¥
 
-	cin >> b_math >> b_english; // bÀÇ ¼öÇÐ, ¿µ¾î Á¡¼ö ÀÔ·Â
+	cin >> b_math >> b_english; // bì˜ ìˆ˜í•™, ì˜ì–´ ì ìˆ˜ ìž…ë ¥
 
-	if (a_math > b_math && a_english > b_english) { // a°¡ bº¸´Ù ¼öÇÐ,¿µ¾î µÎ °ú¸ñ ¸ðµÎ Á¡¼ö°¡ ³ô´Ù¸é 1 Ãâ·Â
+	if (a_math > b_math && a_english > b_english) { // aê°€ bë³´ë‹¤ ìˆ˜í•™,ì˜ì–´ ë‘ ê³¼ëª© ëª¨ë‘ ì ìˆ˜ê°€ ë†’ë‹¤ë©´ 1 ì¶œë ¥
 		cout << "1";
 	}
-	else { // ±×·¸Áö ¾Ê´Ù¸é 0 Ãâ·Â
+	else { // ê·¸ë ‡ì§€ ì•Šë‹¤ë©´ 0 ì¶œë ¥
 		cout << "0";
 	}
 
