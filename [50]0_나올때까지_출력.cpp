@@ -5,10 +5,10 @@ int main() {
 
     int n;
 
-    while (true) { // ���� �ݺ�
+    while (true) { // 무한 반복
         cin >> n;
 
-        if (n == 0) // �Է°��� 0�̶�� ���� Ż��
+        if (n == 0) // 입력값이 0이라면 루프 탈출
             break;
 
         cout << n << endl;
